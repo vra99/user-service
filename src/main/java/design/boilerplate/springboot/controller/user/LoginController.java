@@ -1,4 +1,4 @@
-package design.boilerplate.springboot.controller;
+package design.boilerplate.springboot.controller.user;
 
 import design.boilerplate.springboot.security.dto.LoginRequest;
 import design.boilerplate.springboot.security.dto.LoginResponse;
@@ -9,11 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-/**
- * Created on Ağustos, 2020
- *
- * @author Faruk
- */
 @CrossOrigin
 @RestController
 @RequiredArgsConstructor

@@ -1,4 +1,4 @@
-package design.boilerplate.springboot.controller;
+package design.boilerplate.springboot.controller.user;
 
 import design.boilerplate.springboot.security.dto.RegistrationRequest;
 import design.boilerplate.springboot.security.dto.RegistrationResponse;

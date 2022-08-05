@@ -4,11 +4,6 @@ import lombok.*;
 
 import javax.persistence.*;
 
-/**
- * Created on Ağustos, 2020
- *
- * @author Faruk
- */
 @Getter
 @Setter
 @Entity
@@ -24,6 +19,8 @@ public class User {
 
 	private String name;
 
+	private String address;
+
 	@Column(unique = true)
 	private String username;
 
@@ -33,5 +30,4 @@ public class User {
 
 	@Enumerated(EnumType.STRING)
 	private UserRole userRole;
-
 }

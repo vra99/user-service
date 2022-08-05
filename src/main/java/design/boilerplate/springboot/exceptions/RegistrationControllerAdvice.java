@@ -1,6 +1,6 @@
 package design.boilerplate.springboot.exceptions;
 
-import design.boilerplate.springboot.controller.RegistrationController;
+import design.boilerplate.springboot.controller.user.RegistrationController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.time.LocalDateTime;
 
 /**
- * Created on Ağustos, 2020
- *
- * @author Faruk
+ * @author Victor
  */
+
 @RestControllerAdvice(basePackageClasses = RegistrationController.class)
 public class RegistrationControllerAdvice {
 

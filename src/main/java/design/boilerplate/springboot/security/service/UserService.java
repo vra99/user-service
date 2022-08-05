@@ -5,6 +5,8 @@ import design.boilerplate.springboot.security.dto.AuthenticatedUserDto;
 import design.boilerplate.springboot.security.dto.RegistrationRequest;
 import design.boilerplate.springboot.security.dto.RegistrationResponse;
 
+import java.util.List;
+
 /**
  * Created on Ağustos, 2020
  *
@@ -18,4 +20,13 @@ public interface UserService {
 
 	AuthenticatedUserDto findAuthenticatedUserByUsername(String username);
 
+	List<User> fetchUsersList();
+
+	User addAddress(String username, String address);
+
+	void deleteUser(String username);
+
+	User updateUser(User user, Long userId);
+
+	User updatePassword(User user, Long userId);
 }

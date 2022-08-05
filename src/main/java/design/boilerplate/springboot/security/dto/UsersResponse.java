@@ -14,8 +14,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class RegistrationResponse {
 
-	private String users;
+public abstract class UsersResponse {
 
+    private String message;
 }

@@ -8,10 +8,9 @@ import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;
 
 /**
- * Created on Ağustos, 2020
- *
- * @author Faruk
+ * @author Victor
  */
+
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface UserMapper {
 
